@@ -1,10 +1,7 @@
 let BasicCard = function (front, back) {
-    this.frontText = front;
-    this.backText = back;
+    this.front = front;
+    this.back = back;
 };
-
-var firstPresident = new BasicCard(
-    "Who was the first president of the United States?", "George Washington");
 
 
 
